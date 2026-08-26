@@ -4,6 +4,11 @@ A personal portfolio site styled like a code editor, built with plain HTML, CSS,
 
 **Live site:** https://cincoalthea.github.io/portfolio-personal/
 
+## Screenshots
+
+![Portfolio screenshot 1](assets/screenshot-1.png)
+![Portfolio screenshot 2](assets/screenshot-2.png)
+
 ## Features
 
 - **Editor-inspired UI** — tab-bar top nav, file-card panels, and terminal-style section prompts (`$ whoami`, `$ ls ./projects`, …)
