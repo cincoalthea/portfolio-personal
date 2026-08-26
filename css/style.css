@@ -4,7 +4,6 @@
    Edit these variables to change the whole site's palette.
 ========================================================= */
 :root {
-  /* Light theme (default) */
   --bg: #f4f5f7;
   --surface: #ffffff;
   --surface-alt: #ececf1;

@@ -523,7 +523,6 @@ console.log(
     const trimmed = raw.trim();
     const lower = trimmed.toLowerCase();
 
-    // A couple of easter eggs, checked against the full input first.
     if (lower === "sudo make me a sandwich") {
       return { type: "text", text: "🥪 Nice try — I don't have root access to your kitchen." };
     }
@@ -658,7 +657,6 @@ console.log(
       return;
     }
 
-    // No server — this simply confirms the form works, as required by the brief.
     status.textContent = `Thanks, ${name}! Your message has been received. I'll get back to you soon.`;
     status.className = "form-status success";
     form.reset();
