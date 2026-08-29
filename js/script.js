@@ -694,7 +694,7 @@ console.log(
         .join("");
     })
     .catch(() => {
-      container.innerHTML = `<p class="github-status">Couldn't load repositories right now — set GITHUB_USERNAME in js/script.js, or check back later.</p>`;
+      container.innerHTML = `<p class="github-status">Couldn't load repositories right now — check back later.</p>`;
     });
 
   function escapeHtml(str) {
